@@ -11,3 +11,35 @@
     border: 1px solid gray;
 }
 
+html,
+body {
+    font-family: font.$sans;
+    background-color: cor.$light;
+    color: cor.$dark;
+}
+
+@for $i from 1 to 6 {
+    h#{$i} {
+        font-family: font.$extra !important;
+    }
+}
+
+.align-center {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.align-center {
+    width: tam.$center;
+    @include media.laptop {
+        width: tam.$centerMobile;
+    }
+    @include media.tablet {
+        width: tam.$centerMobile;
+    }
+    @include media.phone {
+        width: tam.$centerMobile;
+    }
+}

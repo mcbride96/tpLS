@@ -2,7 +2,6 @@
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  font-family: "Comfortaa", "Segoe UI", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -433,4 +432,57 @@ textarea {
 
 * {
   border: 1px solid gray;
+}
+
+html,
+body {
+  font-family: "Comfortaa", "Segoe UI", sans-serif;
+  background-color: #e2e2e2;
+  color: #313131;
+}
+
+h1 {
+  font-family: "Quicksand", "Segoe UI", sans-serif !important;
+}
+
+h2 {
+  font-family: "Quicksand", "Segoe UI", sans-serif !important;
+}
+
+h3 {
+  font-family: "Quicksand", "Segoe UI", sans-serif !important;
+}
+
+h4 {
+  font-family: "Quicksand", "Segoe UI", sans-serif !important;
+}
+
+h5 {
+  font-family: "Quicksand", "Segoe UI", sans-serif !important;
+}
+
+.align-center {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-center {
+  width: 1440px;
+}
+@media screen and (min-width: 1224px) and (max-width: 1399px) {
+  .align-center {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1223px) {
+  .align-center {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 699px) {
+  .align-center {
+    width: 90%;
+  }
 }/*# sourceMappingURL=style.css.map */
