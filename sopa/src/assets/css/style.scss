@@ -20,7 +20,7 @@ body {
 
 @for $i from 1 to 6 {
     h#{$i} {
-        font-family: font.$extra !important;
+        font-family: font.$extra;
     }
 }
 
