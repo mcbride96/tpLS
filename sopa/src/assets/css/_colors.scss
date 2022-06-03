@@ -1,0 +1,7 @@
+@use 'sass:color';
+// cores principais
+$main: #4a30bb;
+$hover: color.scale($main, $lightness: -20%);
+// cores de contraste
+$dark: #313131;
+$light: #e2e2e2;
