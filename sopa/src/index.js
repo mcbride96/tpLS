@@ -7,6 +7,24 @@ import './assets/css/style.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* 
+    == Components ==
+    - Header -
+      > Título
+    - Menu inicial -
+      > começar jogo
+      > ver highscores
+    - Tabuleiro de jogo -
+    - Lista de palavras -
+    - Pontuação final -
+    - Lista de pontuações -
+    - tempo de jogo -
+    - seleção de nível - 
+    - pop-up fim do jogo -
+    - Footer -
+      > "trabalho realizado por X, Y e Z no âmbito da cadeira de Linguagens Script"
+    */}
+
     <App /> 
   </React.StrictMode>
 );
