@@ -319,19 +319,19 @@ table {
 }
 
 a {
-  color: #4a30bb;
+  color: #65c6ec;
   transition: color 0.3s ease-in-out;
   text-decoration: none;
 }
 
 a:visited {
-  color: #4a30bb;
+  color: #65c6ec;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #3b2696;
+  color: #29b0e5;
   transition: color 0.3s ease-in-out;
 }
 
@@ -431,14 +431,14 @@ textarea {
 }
 
 * {
-  border: 1px solid gray;
+  border: 1px solid rgb(255, 142, 13);
 }
 
 html,
 body {
   font-family: "Comfortaa", "Segoe UI", sans-serif;
-  background-color: #e2e2e2;
-  color: #313131;
+  background-color: #313131;
+  color: #e2e2e2;
 }
 
 h1 {

@@ -8,14 +8,14 @@
 @use 'sass:color';
 
 * {
-    border: 1px solid gray;
+    border: 1px solid rgb(255, 142, 13);
 }
 
 html,
 body {
     font-family: font.$sans;
-    background-color: cor.$light;
-    color: cor.$dark;
+    background-color: cor.$dark;
+    color: cor.$light;
 }
 
 @for $i from 1 to 6 {
