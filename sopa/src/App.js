@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 //import './assets/css/app.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,7 +21,10 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <div>teste</div>
+    <div className="App">
+    <Header />
+    <Footer />
+    </div>
   );
 }
 
