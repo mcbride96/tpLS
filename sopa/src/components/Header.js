@@ -2,7 +2,9 @@ import '../assets/css/header.css';
 
 function Header() {
     return (
-        <header>Outro teste</header>
+        <header>
+            <h1 className = "titulo" >Sopa de Letras! </h1>
+        </header>
     );
 }
 

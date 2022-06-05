@@ -9,4 +9,14 @@ footer {
     @include media.phone {
         width: tam.$centerMobile;
     }
+    text-align: center;
+}
+
+
+footer h3 {
+    color: cor.$gold;
+}
+
+footer div {
+    color: cor.$light;
 }
