@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import './assets/css/style.css';
 //import reportWebVitals from './reportWebVitals';
 
@@ -26,6 +28,8 @@ root.render(
     */}
 
     <App /> 
+    <Header />
+    <Footer />
   </React.StrictMode>
 );
 
