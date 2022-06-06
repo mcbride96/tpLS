@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Body from './components/Body';
-import MenuInicial, { ToogleMenu } from './components/menuInicial';
+import MenuInicial, { ToogleMenu } from './components/MenuInicial';
 import Menu from './components/Menu';
 import ListaWords from './components/ListaWords';
 
