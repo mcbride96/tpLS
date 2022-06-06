@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-//import './assets/css/app.css';
+//import {palavras} from './data';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Body from './components/Body';
@@ -7,7 +7,11 @@ import Body from './components/Body';
 import MenuInicial, { ToogleMenu } from './components/menuInicial';
 =======
 import Menu from './components/Menu';
+<<<<<<< HEAD
 >>>>>>> 8a0101a62d739891e7398604f387f2a7bd34f158
+=======
+import ListaWords from './components/ListaWords';
+>>>>>>> e5c0c5f082f0f8d8322e475e9146ec036ef448d4
 
 function App() {
   return (
@@ -35,7 +39,11 @@ function App() {
 =======
     <Menu />
     <Body />
+<<<<<<< HEAD
 >>>>>>> 8a0101a62d739891e7398604f387f2a7bd34f158
+=======
+    <ListaWords />
+>>>>>>> e5c0c5f082f0f8d8322e475e9146ec036ef448d4
     <Footer />
     </div>
   );
