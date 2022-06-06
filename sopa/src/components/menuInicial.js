@@ -7,6 +7,8 @@ function MenuInicial() {
             <div className="MenuInicial">
                 <button className="IniciaJogo"> Iniciar Jogo</button>
                 <button className="HighScore"> Ver Pontuações</button>
+
+                
             </div>
 
         </div>
