@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Body from './components/Body';
+import Menu from './components/Menu';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
     */
     <div className="App">
     <Header />
+    <Menu />
     <Body />
     <Footer />
     </div>
