@@ -1,9 +1,10 @@
 import logo from './logo.svg';
-//import './assets/css/app.css';
+//import {palavras} from './data';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Body from './components/Body';
 import Menu from './components/Menu';
+import ListaWords from './components/ListaWords';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
     <Header />
     <Menu />
     <Body />
+    <ListaWords />
     <Footer />
     </div>
   );
