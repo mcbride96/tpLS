@@ -3,7 +3,11 @@ import logo from './logo.svg';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Body from './components/Body';
+<<<<<<< HEAD
 import MenuInicial, { ToogleMenu } from './components/menuInicial';
+=======
+import Menu from './components/Menu';
+>>>>>>> 8a0101a62d739891e7398604f387f2a7bd34f158
 
 function App() {
   return (
@@ -26,7 +30,12 @@ function App() {
     */
     <div className="App">
     <Header />
+<<<<<<< HEAD
     <MenuInicial/>
+=======
+    <Menu />
+    <Body />
+>>>>>>> 8a0101a62d739891e7398604f387f2a7bd34f158
     <Footer />
     </div>
   );
