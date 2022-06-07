@@ -2,4 +2,8 @@
 header {
   text-align: center;
   color: #65c6ec;
+  border: 0px;
+}
+header h1 {
+  border: 0px;
 }/*# sourceMappingURL=header.css.map */
