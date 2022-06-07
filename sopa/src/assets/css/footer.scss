@@ -1,8 +1,8 @@
-@use '_fonts' as font;
-@use '_colors' as cor;
-@use '_media' as media;
-@use '_sizes' as tam;
-@use 'sass:color';
+@use "_fonts" as font;
+@use "_colors" as cor;
+@use "_media" as media;
+@use "_sizes" as tam;
+@use "sass:color";
 
 //exemplo
 footer {
@@ -10,13 +10,17 @@ footer {
         width: tam.$centerMobile;
     }
     text-align: center;
+    margin-top: 100px;
+    border: 0px;
+    h3 {
+        color: cor.$gold;
+        border: 0px;
+        margin: 5px;
+    }
+    div {
+        border: 0px;
+        color: cor.$light;   
+    }
+    
 }
 
-
-footer h3 {
-    color: cor.$gold;
-}
-
-footer div {
-    color: cor.$light;
-}
