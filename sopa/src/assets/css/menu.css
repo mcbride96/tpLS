@@ -424,7 +424,27 @@ textarea {
   width: 100%;
 }
 
-.editButt {
+.MenuInicial {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  border: 0px;
+}
+.MenuInicial .editButt {
+  margin: 5px;
+  width: 200px;
+  border-radius: 20px;
   text-transform: uppercase;
   color: blue;
+}
+.MenuInicial .editButt:hover {
+  background-color: aqua;
+  color: black;
+}
+.MenuInicial h3 {
+  color: white;
+  font-family: "Comfortaa", "Segoe UI", sans-serif;
+  font-size: 2rem;
+  border: 0px;
 }/*# sourceMappingURL=menu.css.map */
